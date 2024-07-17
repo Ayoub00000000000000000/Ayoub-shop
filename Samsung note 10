@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سامسونج نوت 10 - المواصفات</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>سامسونج نوت 10</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">مواصفات</a></li>
+            <li><a href="#" role="button">شراء الآن</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>سامسونج نوت 10</h2>
+                    <h3>المواصفات</h3>
+                </hgroup>
+                <p>يتميز سامسونج نوت 10 بمواصفات عالية تجعل منه جهازًا مثاليًا للمستخدمين الذين يبحثون عن الأداء والقوة في جهاز واحد.</p>
+                
+                <h3>الشاشة</h3>
+                <p>شاشة Dynamic AMOLED بقياس 6.3 بوصة، بدقة 2280 × 1080 بكسل.</p>
+
+                <h3>المعالج</h3>
+                <p>معالج Exynos 9825 (7 نانومتر) أو Qualcomm Snapdragon 855 (7 نانومتر) حسب المنطقة.</p>
+
+                <h3>الذاكرة</h3>
+                <p>ذاكرة وصول عشوائي (RAM) بحجم 8 جيجابايت، وذاكرة تخزين داخلية بحجم 256 جيجابايت.</p>
+
+                <h3>الكاميرا</h3>
+                <p>كاميرا خلفية ثلاثية بدقة 12 ميجابكسل (عدسة واسعة)، 12 ميجابكسل (عدسة زووم)، و 16 ميجابكسل (عدسة فائقة الاتساع).</p>
+
+                <h3>البطارية</h3>
+                <p>بطارية بسعة 3500 مللي أمبير تدعم الشحن السريع بقدرة 25 وات.</p>
+                
+                <h3>نظام التشغيل</h3>
+                <p>نظام تشغيل Android 9.0 Pie مع واجهة مستخدم One UI.</p>
+                
+                <figure>
+                    <img src="https://source.unsplash.com/800x600/?samsung,smartphone" alt="سامسونج نوت 10">
+                    <figcaption><a href="https://www.samsung.com" target="_blank">المزيد من المعلومات</a></figcaption>
+                </figure>
+            </section>
+        </div>
+    </main>
+
+    <section aria-label="اشترك للحصول على تحديثات">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>اشترك</h2>
+                    <h3>احصل على آخر التحديثات والعروض</h3>
+                </hgroup>
+                <form class="grid">
+                    <input type="text" id="firstname" name="firstname" placeholder="الاسم الأول" aria-label="الاسم الأول" required>
+                    <input type="email" id="email" name="email" placeholder="البريد الإلكتروني" aria-label="البريد الإلكتروني" required>
+                    <button type="submit" onclick="event.preventDefault()">اشترك</button>
+                </form>
+            </article>
+        </div>
+    </section>
+
+    <footer class="container">
+        <small>
+            <a href="#">سياسة الخصوصية</a> • <a href="#">الشروط والأحكام</a>
+        </small>
+    </footer>
+</body>
+</html>
